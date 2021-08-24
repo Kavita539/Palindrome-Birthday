@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+:root{
+    --primary-color: #F87171;
+    --border-color: #FCA5A5;
+}
+
+body{
+    margin: 1.5rem;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.top_icon{
+    border-left: 1px solid var(--border-color);
+    padding-left: 2rem;
+}
+
+.brand{
+    width: 80%;
+    padding-left: 1rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#show-btn{
+    background-color: white;
+    border: none;
+    padding: 0.9rem 1.5rem;
+    border-radius: 1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin: 1rem 0;
+
+}
+
+main{
+    text-align: center;
+    padding: 3rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    padding: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+input{
+    padding: 0.5rem 1.5rem;
+    max-width: 10rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 2rem;
+    margin: 1rem 0;
+}
+
+#result{
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+}
+
+li{
+    display: inline;
+    margin: 0 1rem;
+
+}
+
+ul{
+    margin-bottom: 0;
+    padding-inline-start: 0;
+}
+
+footer{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+}
+
+.footHeading{
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: white;
+}
