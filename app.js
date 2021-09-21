@@ -30,7 +30,7 @@ function checkIsPalindrome() {
 
     if (checked) {
         outputEl.style.display = "block"
-        outputEl.innerText = "Yayy, Guess what!! Your birthdate in the format " + checked + " is palindrome 🥳🥳."
+        outputEl.innerText = "Yayy, Guess what!! Your birthdate " + checked + " is palindrome 🥳🥳."
     } else {
         var [nextdate, diff] = nearestDate(inputDate, inputMonth, inputYear);
         outputEl.style.display = "block"
